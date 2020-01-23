@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://mykhailoevtukh.github.io/goit-react-hw-02/",
+  "homepage": "https://mykhailoevtukh.github.io/goit-react-hw-03-image-finder/",
   "eslintConfig": {
     "extends": "react-app"
   },
