@@ -5,12 +5,7 @@ import styles from "./Loader.module.css";
 const Loader = () => {
   return (
     <div className={styles.loader}>
-      <LoaderComponent
-        type="BallTriangle"
-        color="grey"
-        height={100}
-        width={100}
-      />
+      <LoaderComponent type="Bars" color="#383838" height={100} width={100} />
     </div>
   );
 };
