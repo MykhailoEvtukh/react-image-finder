@@ -28,7 +28,7 @@ class App extends Component {
     if (prevState.pageNumber !== pageNumber || prevState.query !== query) {
       this.getArticles(query, pageNumber);
     }
-    if (prevState.articles !== articles && articles.length > 12) {
+    if (prevState.articles !== articles && articles.length > 8) {
       setTimeout(() => {
         window.scrollTo({
           top: document.documentElement.scrollHeight,
