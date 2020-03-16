@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://mykhailoevtukh.github.io/react-image-finder",
+  "homepage": "https://MykhailoEvtukh.github.io/react-image-finder",
   "eslintConfig": {
     "extends": "react-app"
   },
